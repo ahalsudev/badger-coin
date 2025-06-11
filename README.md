@@ -9,6 +9,12 @@ $ forge install OpenZeppelin/openzeppelin-contracts
 ### Deployment
 ```shell
 $ forge create src/BadgerCoin.sol:BadgerCoin --rpc-url http://127.0.0.1:8545 --unlocked --from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 --broadcast
+
+$ forge create src/BadgerCoin.sol:BadgerCoin --rpc-url https://eth-sepolia.g.alchemy.com/v2/$API_KEY --from 0x0dDF8cb6B43A54897061cb1A762E8120620b46d6 --private-key $PRIVATE_KEY --broadcast
+
+Deployer: 0x0dDF8cb6B43A54897061cb1A762E8120620b46d6
+Deployed to: 0x1BEb6c94492FF4A194c473F97C9C5c4874e678a0
+Transaction hash: 0x033b692d976ff5a0cf2e92d9f9a90c2473cbd8803e647956082e581a9f7cc506
 ```
 
 ### Test Transactions
